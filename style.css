@@ -41,7 +41,7 @@
 #main-container {
   display: flex;
   margin-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 125px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -88,4 +88,39 @@
 
 #second-container p {
   color: white;
+}
+
+/* Section 2 */
+#two {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 140px;
+}
+
+#two h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  margin: 50px 0;
+}
+
+#two #figures-cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#two figure {
+  text-align: center;
+  margin: 0 -200px;
+}
+
+#two .img {
+  height: 165px;
+  width: 165px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+#two figcaption{
+  font-size: 17.5px;
 }
