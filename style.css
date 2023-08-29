@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 /* Css Reset */
 * {
   padding: 0;
@@ -121,6 +121,30 @@
   border-radius: 15px;
 }
 
-#two figcaption{
+#two figcaption {
   font-size: 17.5px;
+}
+
+/* Section 3 */
+#three {
+  background-color: #e5e7eb;
+  font-family: "Roboto", sans-serif;
+  padding: 130px 0;
+}
+#three div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#three div p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+#three div h2{
+  margin-left: 495px;
+  font-weight: 600;
 }
