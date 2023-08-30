@@ -74,6 +74,11 @@
   font-weight: 600;
   border-radius: 8px;
   margin-top: 14px;
+  cursor: pointer;
+}
+
+#btn:hover{
+  background-color: #1f75ff;
 }
 
 #second-container {
@@ -156,40 +161,58 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f2f2; /* Background color for the section */
-  padding: 30px 0; /* Add some padding for spacing */
+  background-color: #ffffff; /* Background color for the section */
+  padding: 100px 0; /* Add some padding for spacing */
 }
 
 #four > div {
+  justify-content: center;
+  align-items: center;
   background-color: #3882f6;
   border-radius: 8px;
   width: 75%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  padding: 20px; /* Add padding for spacing inside the div */
-  /* padding: 25px 0px; */
+  /* padding: 20px; Add padding for spacing inside the div */
+  padding: 50px 0px;
 }
 
 #four h2,
 #four p {
-  margin: 0; /* Reset default margins */
+  margin: 0; /*Reset default margins*/
 }
 
+#four h2{
+  color: white;
+}
+
+#four p{
+  margin-top: 2px;
+  color: rgb(223, 222, 222);
+}
 #four div button {
   outline: none;
   border: none;
   background-color: #3882f6;
   color: white;
-  padding: 6px 32px;
+  padding: 6px 30px;
   font-size: 18px;
   font-weight: 600;
   border-radius: 8px;
   border: 2px solid white;
   align-self: flex-end;
   margin-top: 10px;
+  cursor: pointer;
 }
 
+#four div button:hover{
+  background-color: #4a8dfa;
+}
+
+#four .text-container{
+  margin-right: 150px;
+}
 /* Footer */
 footer {
   font-family: "Roboto", sans-serif;
