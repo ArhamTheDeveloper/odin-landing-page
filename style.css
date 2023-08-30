@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap");
 /* Css Reset */
 * {
   padding: 0;
@@ -131,7 +131,7 @@
   font-family: "Roboto", sans-serif;
   padding: 130px 0;
 }
-#three div{
+#three div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,7 +144,48 @@
   font-weight: lighter;
 }
 
-#three div h2{
+#three div h2 {
   margin-left: 495px;
   font-weight: 600;
+}
+
+/* Section 4 */
+ #four{
+  font-family: "Roboto", sans-serif;
+  /* padding: 80px 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; /* Background color for the section */
+  padding: 30px 0; /* Add some padding for spacing */
+} 
+
+#four > div {
+  background-color: #3882f6;
+  border-radius: 8px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px; /* Add padding for spacing inside the div */
+  /* padding: 25px 0px; */
+}
+
+#four h2,
+#four p {
+  margin: 0; /* Reset default margins */
+}
+
+#four div button{
+  outline: none;
+  border: none;
+  background-color: #3882f6;
+  color: white;
+  padding: 6px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid white;
+  align-self: flex-end;
+  margin-top: 10px;
 }
